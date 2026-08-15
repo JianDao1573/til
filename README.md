@@ -25,6 +25,7 @@
 
 ### ai-agent（AI / 自动化）
 - [LLM 当评委为什么总打高分](ai-agent/llm-judge-bias.md)
+- [Make AI Follow the Rules: Declare, Execute, Verify, Automate](ai-agent/rules-not-willpower.en.md)
 - [让 AI 遵守规则：声明规则 + 工具执行 + 校验兜底](ai-agent/rules-not-willpower.md)
 - [让 AI 每天自动沉淀](ai-agent/session-review.md)
 - [靠制度不靠自觉](ai-agent/system-not-willpower.md)
