@@ -65,4 +65,6 @@ This is isomorphic to what managers already know: "rely on SOPs, not on self-dis
 
 ---
 
+If this helped you, consider buying me a coffee: [paypal.me/RENWEJ](https://paypal.me/RENWEJ)
+
 *Tags: `ai-agent` `methodology` `file-management` `pitfall`*

@@ -10,6 +10,12 @@
 - 介意 AI 生成内容可划走
 - 有问题或建议 → 在 [Discussions](https://github.com/JianDao1573/til/discussions) 留言
 
+## ☕ Support
+
+If these notes help you, consider a small tip:
+
+[![PayPal.Me](https://img.shields.io/badge/Donate-PayPal.me-00457C?logo=paypal&style=flat)](https://paypal.me/RENWEJ)
+
 ## 内容分类（颜色 = 类型）
 
 | 类型 | 主题色 | 色值 |
