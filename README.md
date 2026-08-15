@@ -24,4 +24,20 @@
 ## 目录
 
 ### ai-agent（AI / 自动化）
+- [LLM 当评委为什么总打高分](ai-agent/llm-judge-bias.md)
 - [让 AI 遵守规则：声明规则 + 工具执行 + 校验兜底](ai-agent/rules-not-willpower.md)
+- [让 AI 每天自动沉淀](ai-agent/session-review.md)
+- [靠制度不靠自觉](ai-agent/system-not-willpower.md)
+
+### 审美（审美 / 设计）
+- [image-skeleton](审美/image-skeleton.md)
+- [taste-timeless](审美/taste-timeless.md)
+- [type-color-system](审美/type-color-system.md)
+
+### 工具（工具 / 效率）
+- [跑 pandas / organize 等第三方 CLI 前，先清掉 Hermes venv 的泄漏](工具/pythonpath-leak.md)
+
+### 思维（思维 / 学习方法论）
+- [抽象层级决定内容寿命](思维/abstraction-lifespan.md)
+- [费曼学习法：教是最好的学](思维/feynman.md)
+- [质量 4 问](思维/quality-4q.md)

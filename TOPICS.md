@@ -23,5 +23,6 @@
 | type-color-system | 类型→颜色的设计系统 | 审美 | efficiency | 6 类型颜色分类，一眼识别 | 人工 |
 | image-skeleton | 图片=骨架、文字=血肉 | 审美 | methodology | 图承载要点，字补感受，不重复 | 人工 |
 | pythonpath-leak | 一次 PYTHONPATH 泄漏排查 | 工具 | pitfall | 环境变量泄漏导致 numpy 报错 | 人工 |
+| taste-timeless | 品味决定存留 | 审美 | methodology | 越有品味的事物存留越长（待单独思考） | 人工 |
 
 > 反馈 cron 筛出的优质建议，追加到本表，来源标 `feedback`。
