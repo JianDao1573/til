@@ -25,7 +25,3 @@
 
 ### ai-agent（AI / 自动化）
 - [让 AI 遵守规则：声明规则 + 工具执行 + 校验兜底](ai-agent/rules-not-willpower.md)
-
-### 待扩展主题域
-- 思维 / 学习方法论
-- 审美 / 设计
