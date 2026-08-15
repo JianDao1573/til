@@ -29,13 +29,10 @@
 - [让 AI 每天自动沉淀](ai-agent/session-review.md)
 - [靠制度不靠自觉](ai-agent/system-not-willpower.md)
 
-### content
-- [怎么写出「AI 觉得 + 人觉得」都有价值的内容？](content/how-to-write-valuable-content.md)
-
 ### 审美（审美 / 设计）
-- [image-skeleton](审美/image-skeleton.md)
-- [taste-timeless](审美/taste-timeless.md)
-- [type-color-system](审美/type-color-system.md)
+- [图片=骨架、文字=血肉](审美/image-skeleton.md)
+- [品味决定存留](审美/taste-timeless.md)
+- [类型→颜色的设计系统](审美/type-color-system.md)
 
 ### 工具（工具 / 效率）
 - [跑 pandas / organize 等第三方 CLI 前，先清掉 Hermes venv 的泄漏](工具/pythonpath-leak.md)
