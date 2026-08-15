@@ -29,6 +29,9 @@
 - [让 AI 每天自动沉淀](ai-agent/session-review.md)
 - [靠制度不靠自觉](ai-agent/system-not-willpower.md)
 
+### content
+- [怎么写出「AI 觉得 + 人觉得」都有价值的内容？](content/how-to-write-valuable-content.md)
+
 ### 审美（审美 / 设计）
 - [image-skeleton](审美/image-skeleton.md)
 - [taste-timeless](审美/taste-timeless.md)
@@ -40,4 +43,5 @@
 ### 思维（思维 / 学习方法论）
 - [抽象层级决定内容寿命](思维/abstraction-lifespan.md)
 - [费曼学习法：教是最好的学](思维/feynman.md)
+- [怎么写出 AI 和人都认可的内容](思维/how-to-write-valuable-content.md)
 - [质量 4 问](思维/quality-4q.md)
