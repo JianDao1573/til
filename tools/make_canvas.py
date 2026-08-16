@@ -78,8 +78,9 @@ def build_canvas(cfg):
                   "toNode": "notes", "toSide": "top"})
     edges.append({"id": "e2", "fromNode": "notes", "fromSide": "left",
                   "toNode": "draft", "toSide": "right"})
-    edges.append({"id": "e3", "fromNode": "frag0", "fromSide": "top",
-                  "toNode": "draft", "toSide": "bottom"})
+    if frags:
+        edges.append({"id": "e3", "fromNode": "frag0", "fromSide": "top",
+                      "toNode": "draft", "toSide": "bottom"})
     return {"nodes": nodes, "edges": edges}
 
 
