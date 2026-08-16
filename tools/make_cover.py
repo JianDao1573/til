@@ -2,8 +2,8 @@
 """封面 + 小红书卡片 固化脚本（TIL 内容加工层）
 
 用法（py -3.12）：
-  封面:  py -3.12 make_cover.py cover --title "让 AI 遵守规则" --subtitle "别靠提醒，靠制度" --type methodology --out "D:/til/分发/2026-08-15-xxx/封面"
-  小红书: py -3.12 make_cover.py xhs --cards cards.json --out "D:/til/分发/2026-08-15-xxx/小红书"
+  封面:  py -3.12 make_cover.py cover --title "让 AI 遵守规则" --subtitle "别靠提醒，靠制度" --type methodology --out "D:/项目/jiandao-til/分发/2026-08-15-xxx/封面"
+  小红书: py -3.12 make_cover.py xhs --cards cards.json --out "D:/项目/jiandao-til/分发/2026-08-15-xxx/小红书"
 
 --type 取值（对应宪法 PRINCIPLES.md 颜色分类）：
   pitfall 避坑 / methodology 方法论 / tool 工具 / efficiency 效率 / review 复盘 / alert 提醒

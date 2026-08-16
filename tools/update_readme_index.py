@@ -15,7 +15,7 @@ import argparse
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent  # D:\til
+ROOT = Path(__file__).resolve().parent.parent  # D:\项目\jiandao-til
 README = ROOT / "README.md"
 
 # 非内容目录（排除）

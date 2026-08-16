@@ -8,7 +8,7 @@
 ## 一、项目全景
 
 ```
-【资产】13 篇 TIL（12中+1英）@ D:\til → GitHub 母库（公开+Discussion+PayPal）
+【资产】11 篇 TIL（11中+1英）@ D:\项目\jiandao-til → GitHub 母库（公开+Discussion+PayPal）
                                         ↓ 分发
 【渠道】GitHub ✅ → r/ControlProblem ⏳ → X ⏳ → HN ⏳
                                         ↓ 反馈
@@ -19,7 +19,7 @@
 
 | 资产 | 状态 | 说明 |
 |------|------|------|
-| TIL 母库 | ✅ | 13 篇（12 中文 + 1 英文），`D:\til` |
+| TIL 母库 | ✅ | 11 篇中文 + 1 篇英文翻译，`D:\项目\jiandao-til` |
 | GitHub repo | ✅ | `github.com/JianDao1573/til`（公开 + Discussion + PayPal 入口） |
 | 英文版 | ✅ | 《Make AI Follow the Rules》`ai-agent/rules-not-willpower.en.md` |
 | 内容流水线 | ✅ | til-pipeline 技能（选题→草稿→评分→素材→入库→分发→反馈） |
@@ -28,13 +28,13 @@
 
 ## 三、海外渠道状态
 
-> ⚠️ 状态截至 2026-08-15，最新进展待确认。
+> ⚠️ 状态截至 2026-08-16。X 申诉仍未回复邮件（已 2 天），Reddit 待跟进。
 
 | 渠道 | 状态 | 阻塞 | 下一步 |
 |------|------|------|--------|
 | GitHub | ✅ 已上线 | 无 | 等自然流量 + 反馈 cron 观察 |
 | Reddit r/ControlProblem | ⏳ ModMail 已发 | 等 mods 人工审核 | 24h 无回复 → 先参与社区再重发 |
-| X @wRaven395064 | ⏳ 申诉已提交 | 账号因长期未用被锁 | 等审核邮件（1-5 天，查垃圾箱） |
+| X @wRaven395064 | ⏳ 申诉已提交 | 账号因长期未用被锁 | 等审核邮件（已 2 天未回复，继续查垃圾箱） |
 | HN | ⏳ 未开始 | karma 1（需 20+ 才能提交 github.com） | 评论热门帖攒 karma |
 
 ## 四、待完成项目

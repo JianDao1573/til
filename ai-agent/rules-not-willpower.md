@@ -1,3 +1,10 @@
+---
+date: 2026-08-15
+type: methodology
+tags: [ai-agent, 方法论, 规则引擎]
+slug: rules-not-willpower
+---
+
 > 📌 **声明**：本文为个人踩坑经验，面向使用 AI / 自动化工具的人；由 AI 生成、人工审核。介意可划走。
 > 💬 对本话题有意见或建议，欢迎留言交流。
 
