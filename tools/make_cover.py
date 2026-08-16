@@ -66,7 +66,7 @@ body {{ font-family:"Microsoft YaHei","PingFang SC",sans-serif; background:#1a1a
 <div class="tag">{esc(series)}</div>
 <div class="title">{esc(title)}</div>
 <div class="sub">{esc(subtitle)}</div>
-<div class="foot">个人知识分享 · 大道至简</div>
+<div class="foot">简道 · 个人知识分享 · 大道至简</div>
 </div></body></html>"""
     hp = outdir / "cover.html"
     hp.write_text(html, encoding="utf-8")
