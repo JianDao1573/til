@@ -29,6 +29,18 @@ TYPE_LABEL = {
     "efficiency": "效率", "review": "复盘", "alert": "提醒",
 }
 
+# 意象库（可选视觉焦点，按文章定制，--motif 传入）
+MOTIFS = {
+    "matchstick": ('<svg class="motif" viewBox="0 0 80 240" xmlns="http://www.w3.org/2000/svg">'
+                   '<defs><radialGradient id="flame" cx="50%" cy="35%" r="60%">'
+                   '<stop offset="0%" stop-color="#fff7d6"/><stop offset="40%" stop-color="#ffb347"/>'
+                   '<stop offset="100%" stop-color="#ff6b35"/></radialGradient></defs>'
+                   '<rect x="36" y="110" width="8" height="125" rx="4" fill="#d4a373" transform="rotate(8 40 172)"/>'
+                   '<rect x="32" y="92" width="16" height="22" rx="5" fill="#7f3b3b"/>'
+                   '<ellipse cx="40" cy="55" rx="20" ry="40" fill="url(#flame)"/>'
+                   '<ellipse cx="40" cy="60" rx="10" ry="22" fill="#fff3c4"/></svg>'),
+}
+
 
 def esc(s: str) -> str:
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -42,8 +54,9 @@ def shot(html_path: Path, png_path: Path, w: int, h: int):
         capture_output=True, timeout=30, check=True)
 
 
-def make_cover(title, subtitle, series, accent, accent_light, outdir: Path):
+def make_cover(title, subtitle, series, accent, accent_light, outdir: Path, motif=None):
     outdir.mkdir(parents=True, exist_ok=True)
+    motif_svg = MOTIFS.get(motif, "") if motif else ""
     html = f"""<!DOCTYPE html><html><head><meta charset="utf-8"><style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 html,body {{ width:900px; height:383px; overflow:hidden; }}
@@ -61,12 +74,14 @@ body {{ font-family:"Microsoft YaHei","PingFang SC",sans-serif; background:#1a1a
 .title {{ position:absolute; left:46px; top:100px; font-size:52px; font-weight:800; color:#ffffff; line-height:1.3; }}
 .sub {{ position:absolute; left:48px; top:230px; font-size:26px; color:{accent_light}; font-weight:600; }}
 .foot {{ position:absolute; left:48px; bottom:28px; font-size:15px; color:#8a93a6; letter-spacing:2px; }}
+.motif {{ position:absolute; right:80px; bottom:40px; width:70px; height:210px; opacity:0.95; }}
 </style></head><body><div class="cover">
 <div class="bar"></div><div class="glow"></div>
 <div class="tag">{esc(series)}</div>
 <div class="title">{esc(title)}</div>
 <div class="sub">{esc(subtitle)}</div>
 <div class="foot">简道 · 个人知识分享 · 大道至简</div>
+{motif_svg}
 </div></body></html>"""
     hp = outdir / "cover.html"
     hp.write_text(html, encoding="utf-8")
@@ -117,6 +132,7 @@ def main():
     cov.add_argument("--subtitle", default="")
     cov.add_argument("--series", default="TIL")
     cov.add_argument("--type", default="methodology", choices=TYPE_COLORS.keys())
+    cov.add_argument("--motif", default=None, choices=list(MOTIFS.keys()))
     cov.add_argument("--out", required=True)
 
     xhs = sub.add_parser("xhs", help="生成小红书 6 卡片（多图）")
@@ -129,7 +145,7 @@ def main():
     label = TYPE_LABEL[a.type]
 
     if a.cmd == "cover":
-        make_cover(a.title, a.subtitle, a.series, accent, accent_light, Path(a.out))
+        make_cover(a.title, a.subtitle, a.series, accent, accent_light, Path(a.out), a.motif)
     else:
         cards = json.loads(Path(a.cards).read_text(encoding="utf-8"))
         make_xhs(cards, accent, accent_light, label, Path(a.out))
