@@ -19,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent  # 仓库根目录
 README = ROOT / "README.md"
 
 # 非内容目录（排除）
-EXCLUDE = {".git", ".github", "templates", "分发", "tools"}
+EXCLUDE = {".git", ".github", "templates", "分发", "tools", "平台档案"}
 
 # 分类目录 → 显示名（未来加分类时在此补一行）
 CATEGORY_LABELS = {

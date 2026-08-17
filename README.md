@@ -52,4 +52,4 @@ If these notes help you, consider a small tip:
 ### 思维（思维 / 学习方法论）
 - [抽象层级决定内容寿命](思维/abstraction-lifespan.md)
 - [费曼学习法：教是最好的学](思维/feynman.md)
-- [怎么写出 AI 和人都认可的内容](思维/how-to-write-valuable-content.md)
+- [怎样写出 AI 和人都认可的内容](思维/how-to-write-valuable-content.md)
