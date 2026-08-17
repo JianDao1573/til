@@ -15,7 +15,7 @@ import argparse
 import re
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parent.parent  # D:\项目\jiandao-til
+ROOT = Path(__file__).resolve().parent.parent  # 仓库根目录
 README = ROOT / "README.md"
 
 # 非内容目录（排除）
@@ -75,7 +75,7 @@ def main():
 
     cats = scan_categories()
     if not cats:
-        print("⚠️ 未发现任何分类目录下的 *.md，请检查 D:\\til 结构")
+        print("⚠️ 未发现任何分类目录下的 *.md，请检查仓库目录结构")
         return
 
     new_index = build_index(cats)

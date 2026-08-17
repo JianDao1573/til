@@ -30,11 +30,14 @@ If these notes help you, consider a small tip:
 ## 目录
 
 ### ai-agent（AI / 自动化）
+- [物理集中后还要拆平](ai-agent/flatten-after-centralize.md)
 - [LLM 当评委为什么总打高分](ai-agent/llm-judge-bias.md)
+- [项目命名要说出功能](ai-agent/name-should-tell-function.md)
 - [Make AI Follow the Rules: Declare, Execute, Verify, Automate](ai-agent/rules-not-willpower.en.md)
 - [让 AI 遵守规则：声明规则 + 工具执行 + 校验兜底](ai-agent/rules-not-willpower.md)
 - [让 AI 每天自动沉淀](ai-agent/session-review.md)
 - [靠制度不靠自觉](ai-agent/system-not-willpower.md)
+- [工具别复制到处改](ai-agent/tool-single-source-of-truth.md)
 
 ### 审美（审美 / 设计）
 - [图片=骨架、文字=血肉](审美/image-skeleton.md)
@@ -42,6 +45,8 @@ If these notes help you, consider a small tip:
 - [类型→颜色的设计系统](审美/type-color-system.md)
 
 ### 工具（工具 / 效率）
+- [attrib +h 会穿透 junction](工具/attrib-hides-junction-target.md)
+- [路径迁移的三种写法](工具/path-migration-three-variants.md)
 - [跑 pandas / organize 等第三方 CLI 前，先清掉 Hermes venv 的泄漏](工具/pythonpath-leak.md)
 
 ### 思维（思维 / 学习方法论）
